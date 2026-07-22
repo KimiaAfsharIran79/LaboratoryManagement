@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{102DF008-C5FE-4FCB-A92D-075BED2B5ED1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Laboratory</RootNamespace>
+    <AssemblyName>Laboratory</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Localization, Version=2.7.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Farsi.Library.Win.2.7.0\lib\net46\FarsiLibrary.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Utils, Version=2.7.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Farsi.Library.Win.2.7.0\lib\net46\FarsiLibrary.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Win, Version=2.7.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Farsi.Library.Win.2.7.0\lib\net46\FarsiLibrary.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInsuranceType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsuranceType.Designer.cs">
+      <DependentUpon>frmInsuranceType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatient.Designer.cs">
+      <DependentUpon>frmPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRange.Designer.cs">
+      <DependentUpon>frmRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceptionDetailsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceptionDetailsReport.Designer.cs">
+      <DependentUpon>frmReceptionDetailsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceptionHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceptionHeader.Designer.cs">
+      <DependentUpon>frmReceptionHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceptionHeaderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceptionHeaderReport.Designer.cs">
+      <DependentUpon>frmReceptionHeaderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceptionManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceptionManage.Designer.cs">
+      <DependentUpon>frmReceptionManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTestCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTestCategory.Designer.cs">
+      <DependentUpon>frmTestCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnit.Designer.cs">
+      <DependentUpon>frmUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInsuranceType.resx">
+      <DependentUpon>frmInsuranceType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatient.resx">
+      <DependentUpon>frmPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRange.resx">
+      <DependentUpon>frmRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceptionDetailsReport.resx">
+      <DependentUpon>frmReceptionDetailsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceptionHeader.resx">
+      <DependentUpon>frmReceptionHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceptionHeaderReport.resx">
+      <DependentUpon>frmReceptionHeaderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceptionManage.resx">
+      <DependentUpon>frmReceptionManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTestCategory.resx">
+      <DependentUpon>frmTestCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnit.resx">
+      <DependentUpon>frmUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{ced9a97e-3e5c-48e0-8376-5174e9b17cc0}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DomainModel\DomainModel.csproj">
+      <Project>{8374bccb-7fa8-41fa-8f4e-1325332f5387}</Project>
+      <Name>DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{95647924-5c8e-435e-8aca-2ead0dfcbc73}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images c%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images ggg%287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2818%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2821%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2832%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2820%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2811%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2824%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %289%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%292.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2824%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2814%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2829%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2830%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logonomy-1734134275300.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logonomy-1734341115799.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2827%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_279577493_vFIdIwfmaLXUWk2p6ZmSY2MogXdG27fo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_336704005_xavf7nv4MiJ24eNHurFD4KsryGMcYgCM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logonomy-1734341103003.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logonomy-1734341206079.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logonomy-1734341190267.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logonomy-1734341315392.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logonomy-1734341376268.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_1083962790_Db1KSKeKZAC65gQprBGy9Pkb4TXDuXsM.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
