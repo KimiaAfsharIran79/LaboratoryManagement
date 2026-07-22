@@ -2,7 +2,11 @@
 
 
 
-A desktop Laboratory Management System developed with C# and Windows Forms using a layered architecture.
+A desktop Laboratory Management System developed with \*\*C#\*\*, \*\*Windows Forms\*\*, and \*\*SQL Server\*\* using a layered architecture.
+
+
+
+\---
 
 
 
@@ -10,11 +14,15 @@ A desktop Laboratory Management System developed with C# and Windows Forms using
 
 
 
-This project was developed as a university laboratory management system to manage patients, employees, laboratory tests, insurance types, reception records, and reporting.
+This project was developed as a university laboratory management system to manage laboratory operations, including patient registration, employee management, laboratory tests, insurance types, reception records, and reporting.
 
 
 
-The application follows a multi-layer architecture and uses SQL Server for data storage.
+The application follows a layered architecture consisting of \*\*Presentation\*\*, \*\*Business\*\*, \*\*Data Access\*\*, and \*\*Domain Model\*\* layers.
+
+
+
+\---
 
 
 
@@ -22,7 +30,7 @@ The application follows a multi-layer architecture and uses SQL Server for data 
 
 
 
-\- User Login
+\- User Authentication (Login)
 
 \- Patient Management
 
@@ -32,15 +40,19 @@ The application follows a multi-layer architecture and uses SQL Server for data 
 
 \- Test Category Management
 
-\- Test Range Management
+\- Test Unit Management
 
-\- Unit Management
+\- Test Range Management
 
 \- Insurance Type Management
 
 \- Reception Registration
 
-\- Reports
+\- Reporting Module
+
+
+
+\---
 
 
 
@@ -60,11 +72,15 @@ The application follows a multi-layer architecture and uses SQL Server for data 
 
 
 
+\---
+
+
+
 \## Project Structure
 
 
 
-```
+```text
 
 Laboratory
 
@@ -80,6 +96,12 @@ Laboratory
 
 ```
 
+
+
+\---
+
+
+
 \## Screenshots
 
 
@@ -92,11 +114,19 @@ Laboratory
 
 
 
+\---
+
+
+
 \### Main Dashboard
 
 
 
-!\[Main](screenshots/main.jpg)
+!\[Main Dashboard](screenshots/main.jpg)
+
+
+
+\---
 
 
 
@@ -108,6 +138,10 @@ Laboratory
 
 
 
+\---
+
+
+
 \### Employee Management
 
 
@@ -116,19 +150,31 @@ Laboratory
 
 
 
+\---
+
+
+
 \### Reception Management
 
 
 
-!\[Reception Management](screenshots/reception-managment.jpg)
+!\[Reception Management](screenshots/reception-management.jpg)
 
 
 
-\### Reception Register
+\---
 
 
 
-!\[Reception Register](screenshots/reception-register.jpg)
+\### Reception Registration
+
+
+
+!\[Reception Registration](screenshots/reception-register.jpg)
+
+
+
+\---
 
 
 
@@ -140,11 +186,19 @@ Laboratory
 
 
 
+\---
+
+
+
 \### Test Categories
 
 
 
 !\[Test Categories](screenshots/test-category.jpg)
+
+
+
+\---
 
 
 
@@ -156,11 +210,19 @@ Laboratory
 
 
 
+\---
+
+
+
 \### Test Ranges
 
 
 
 !\[Test Ranges](screenshots/test-range.jpg)
+
+
+
+\---
 
 
 
@@ -172,11 +234,19 @@ Laboratory
 
 
 
+\---
+
+
+
 \### Reports
 
 
 
 !\[Reports](screenshots/reports.jpg)
+
+
+
+\---
 
 
 
