@@ -106,7 +106,7 @@ Laboratory
 
 
 
-\### Login
+\## Login
 
 
 
@@ -118,7 +118,7 @@ Laboratory
 
 
 
-\### Main Dashboard
+\## Main Dashboard
 
 
 
@@ -130,7 +130,7 @@ Laboratory
 
 
 
-\### Patient Management
+\## Patient Management
 
 
 
@@ -142,7 +142,7 @@ Laboratory
 
 
 
-\### Employee Management
+\## Employee Management
 
 
 
@@ -154,7 +154,7 @@ Laboratory
 
 
 
-\### Reception Management
+\## Reception Management
 
 
 
@@ -166,7 +166,7 @@ Laboratory
 
 
 
-\### Reception Registration
+\## Reception Registration
 
 
 
@@ -178,7 +178,7 @@ Laboratory
 
 
 
-\### Test Management
+\## Test Management
 
 
 
@@ -190,7 +190,7 @@ Laboratory
 
 
 
-\### Test Categories
+\## Test Categories
 
 
 
@@ -202,7 +202,7 @@ Laboratory
 
 
 
-\### Test Units
+\## Test Units
 
 
 
@@ -214,7 +214,7 @@ Laboratory
 
 
 
-\### Test Ranges
+\## Test Ranges
 
 
 
@@ -226,7 +226,7 @@ Laboratory
 
 
 
-\### Insurance Management
+\## Insurance Management
 
 
 
@@ -238,7 +238,7 @@ Laboratory
 
 
 
-\### Reports
+\## Reports
 
 
 
