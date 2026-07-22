@@ -248,6 +248,11 @@ Laboratory
 
 \---
 
+## 🗄 Database
+
+The SQL Server database creation script is available in the `Database` folder.
+
+- Database: `Laboratory.sql`
 
 
 \## 👨‍💻 Author
