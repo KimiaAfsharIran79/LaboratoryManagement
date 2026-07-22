@@ -10,7 +10,7 @@ A desktop Laboratory Management System developed with C# and Windows Forms using
 
 
 
-This project was developed as an educational project to manage laboratory operations such as patients, employees, laboratory tests, units, insurance types, and reception records.
+This project was developed as a university laboratory management system to manage patients, employees, laboratory tests, insurance types, reception records, and reporting.
 
 
 
@@ -80,8 +80,6 @@ Laboratory
 
 ```
 
-
-
 \## Screenshots
 
 
@@ -94,7 +92,7 @@ Laboratory
 
 
 
-\### Main Form
+\### Main Dashboard
 
 
 
@@ -106,7 +104,7 @@ Laboratory
 
 
 
-!\[Patient](screenshots/patient.jpg)
+!\[Patient Management](screenshots/patient-management.jpg)
 
 
 
@@ -114,15 +112,71 @@ Laboratory
 
 
 
-!\[Employee](screenshots/employee.jpg)
+!\[Employee Management](screenshots/employee-management.jpg)
 
 
 
-\### Reception
+\### Reception Management
 
 
 
-!\[Reception](screenshots/reception.jpg)
+!\[Reception Management](screenshots/reception-management.jpg)
+
+
+
+\### Reception Register
+
+
+
+!\[Reception Register](screenshots/reception-register.jpg)
+
+
+
+\### Test Management
+
+
+
+!\[Test Management](screenshots/test-register.jpg)
+
+
+
+\### Test Categories
+
+
+
+!\[Test Categories](screenshots/test-category.jpg)
+
+
+
+\### Test Units
+
+
+
+!\[Test Units](screenshots/test-unit.jpg)
+
+
+
+\### Test Ranges
+
+
+
+!\[Test Ranges](screenshots/test-range.jpg)
+
+
+
+\### Insurance Management
+
+
+
+!\[Insurance Management](screenshots/insurance.jpg)
+
+
+
+\### Reports
+
+
+
+!\[Reports](screenshots/reports.jpg)
 
 
 
@@ -134,7 +188,5 @@ Developed by \*\*Kimia Afshar\*\*
 
 
 
-GitHub:
-
-https://github.com/KimiaAfsharIran79
+GitHub: https://github.com/KimiaAfsharIran79
 
