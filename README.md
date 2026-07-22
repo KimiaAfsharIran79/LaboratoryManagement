@@ -120,7 +120,7 @@ Laboratory
 
 
 
-!\[Reception Management](screenshots/reception-management.jpg)
+!\[Reception Management](screenshots/reception-managment.jpg)
 
 
 
