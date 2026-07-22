@@ -1,4 +1,4 @@
-\# Laboratory Management System
+\# 🧪 Laboratory Management System
 
 
 
@@ -10,7 +10,7 @@ A desktop Laboratory Management System developed with \*\*C#\*\*, \*\*Windows Fo
 
 
 
-\## Overview
+\\## 📖 Overview
 
 
 
@@ -26,7 +26,7 @@ The application follows a layered architecture consisting of \*\*Presentation\*\
 
 
 
-\## Features
+\\# ✨ Features
 
 
 
@@ -56,7 +56,7 @@ The application follows a layered architecture consisting of \*\*Presentation\*\
 
 
 
-\## Technologies
+\\# 🛠 Technologies
 
 
 
@@ -76,7 +76,7 @@ The application follows a layered architecture consisting of \*\*Presentation\*\
 
 
 
-\## Project Structure
+\\# 📂 Project Structure
 
 
 
@@ -102,7 +102,7 @@ Laboratory
 
 
 
-\## Screenshots
+\\# 📸 Screenshots
 
 
 
@@ -250,7 +250,7 @@ Laboratory
 
 
 
-\## Author
+\## 👨‍💻 Author
 
 
 
@@ -258,5 +258,15 @@ Developed by \*\*Kimia Afshar\*\*
 
 
 
-GitHub: https://github.com/KimiaAfsharIran79
+.NET Developer passionate about building desktop and web applications using C#, SQL Server, and modern software architectures.
+
+
+
+\### Connect with me
+
+
+
+🐙 GitHub:  
+
+https://github.com/KimiaAfsharIran79
 
