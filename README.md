@@ -124,6 +124,8 @@ Laboratory
 
 
 
+<img src="./screenshots/main.jpg" width="700" alt="Main Dashboard">
+
 !\[Main Dashboard](./screenshots/main.jpg)
 
 
@@ -135,6 +137,8 @@ Laboratory
 \### Patient Management
 
 
+
+<img src="./screenshots/patient-management.jpg" width="700" alt="Patient Management">
 
 !\[Patient Management](./screenshots/patient-management.jpg)
 
@@ -148,6 +152,8 @@ Laboratory
 
 
 
+<img src="./screenshots/employee-management.jpg" width="700" alt="Employee Management">
+
 !\[Employee Management](./screenshots/employee-management.jpg)
 
 
@@ -159,6 +165,8 @@ Laboratory
 \### Reception Management
 
 
+
+<img src="./screenshots/reception-management.jpg" width="700" alt="Reception Management">
 
 !\[Reception Management](./screenshots/reception-management.jpg)
 
@@ -172,6 +180,8 @@ Laboratory
 
 
 
+<img src="./screenshots/reception-register.jpg" width="700" alt="Reception Registration">
+
 !\[Reception Registration](./screenshots/reception-register.jpg)
 
 
@@ -183,6 +193,8 @@ Laboratory
 \### Test Management
 
 
+
+<img src="./screenshots/test-register.jpg" width="700" alt="Test Management">
 
 !\[Test Management](./screenshots/test-register.jpg)
 
@@ -196,6 +208,8 @@ Laboratory
 
 
 
+<img src="./screenshots/test-category.jpg" width="700" alt="Test Categories">
+
 !\[Test Categories](./screenshots/test-category.jpg)
 
 
@@ -207,6 +221,8 @@ Laboratory
 \### Test Units
 
 
+
+<img src="./screenshots/test-unit.jpg" width="700" alt="Test Units">
 
 !\[Test Units](./screenshots/test-unit.jpg)
 
@@ -220,6 +236,8 @@ Laboratory
 
 
 
+<img src="./screenshots/test-range.jpg" width="700" alt="Test Ranges">
+
 !\[Test Ranges](./screenshots/test-range.jpg)
 
 
@@ -232,6 +250,8 @@ Laboratory
 
 
 
+<img src="./screenshots/insurance.jpg" width="700" alt="Insurance Management">
+
 !\[Insurance Management](./screenshots/insurance.jpg)
 
 
@@ -243,6 +263,8 @@ Laboratory
 \### Reports
 
 
+
+<img src="./screenshots/reports.jpg" width="700" alt="Reports">
 
 !\[Reports](./screenshots/reports.jpg)
 
